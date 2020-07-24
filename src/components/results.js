@@ -4,11 +4,15 @@ import Logo from './logo';
 import SearchBar from './searchBar';
 
 class Results extends Component {
+
+    handleSearchBarSubmit(query) {
+
+    }
     render() {
         return (
             <div>
                 <Logo size={55} />
-                <SearchBar />
+                <SearchBar onSubmit={(query) => handleSearchBarSubmit(query)}/>
             </div>
         )
     }
