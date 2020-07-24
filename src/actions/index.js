@@ -1,4 +1,4 @@
-import { SET_RECENT_POST } from './types';
+import { SET_RECENT_POSTS } from './types';
 
 import axios from 'axios';
 
