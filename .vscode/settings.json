@@ -8,5 +8,6 @@
         "plaintext",
         "scss",
         "javascript"
-    ]
+    ],
+    "editor.fontFamily": "Consolas, 'Fira Code' , monospace"
 }
