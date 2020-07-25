@@ -11,11 +11,11 @@ class Post extends Component {
     
     render() {
         return(
-                <li className="recent-posts">
-                    <div className="recent-posts__title">
+                <li className="recent-post">
+                    <div className="recent-post__title">
                         {this.props.title}
                     </div>
-                    <div className="recent-posts__topics">
+                    <div className="recent-post__topics">
                         {this.renderTopics()}
                     </div>    
                  </li>

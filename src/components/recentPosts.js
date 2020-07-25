@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 import * as actions from '../actions';
 
 import Post from './post';
+
 class RecentPosts extends Component {
 
     componentDidMount() {
@@ -15,8 +16,7 @@ class RecentPosts extends Component {
         const posts = this.props.recentPosts.map((post, index) => {
          if (index < 3) {
             return (
-                 <Post {...post} key={index} />
-                 
+                 <Post {...post} key={index} />                 
                 )
         }
     })
